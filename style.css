@@ -1,0 +1,188 @@
+*{
+    overflow:visible;
+    background-color: rgb(99, 22, 22);
+}
+.sidebar{
+    background-color: brown;
+    height: 300px;
+    width: 50px;
+    position: relative;
+    top: 100px;
+    right: 10px;
+    border-top-right-radius: 20PX;
+    border-bottom-right-radius: 20px;
+    
+}
+.logos{
+    position: relative;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    margin: 20px;
+    background: transparent;
+}
+.sports{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 290px;
+    bottom: 400px;
+    color: wheat;   
+    font-size: 200px;
+}
+/* .sports:hover{
+    color: whitesmoke;
+    animation: 0.5s;
+} */
+#kick{
+    background: transparent;
+    position: relative;
+    left: 300px;
+    bottom: 1000px;
+    height: 500px;
+    width: 680px;
+}
+.navbar{
+    background-color: brown;
+    height: 70px;
+    width: 500px;
+    position: relative;
+    left: 650px;
+    bottom: 290px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navs{
+    font-size: 22px;
+    background-color: brown;
+    margin: 7px;
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-decoration: none;
+}
+.navs a{
+    color: wheat;
+    text-decoration: none;
+    background-color: brown;
+}
+.navs:hover{
+    text-decoration: underline;
+}
+#card1{
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    position: relative;
+    bottom: 600px;
+    left: 20px;
+    border-radius: 20px;
+}
+.card2{
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    position: relative;
+    bottom: 999px;
+    left: 390px;
+    border-radius: 20px;
+}
+.card3{
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    position: relative;
+    bottom: 1397px;
+    left: 760px;
+    border-radius: 20px;
+}
+.card4{
+    height: 400px;
+    width: 350px;
+    background-color: bisque;
+    position: relative;
+    bottom: 1799px;
+    left: 1130px;
+    border-radius: 20px;
+}
+#card1 .card2 .card3 .card4:hover{
+    height: 140px;
+    width: 100px;
+}
+.sticker{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    box-shadow: 0 0 100px 10px rgb(112, 90, 90);
+    transition: 0.3s;
+}
+#sticker2{
+    position: relative;
+    left: 50px;
+}
+#sticker3{
+    position: relative;
+    left: 50px;
+}
+#sticker4{
+    position: relative;
+    left: 50px;
+}
+.sticker:hover{
+    height: 270px;
+    width: 270px;
+}
+.sportsname{
+    font-size: 30px;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    width: 100px;
+    height: 0px;
+    color: rgb(37, 34, 34);
+}
+
+
+#cricketname{
+    position: relative;
+    left: 130px;
+}
+#footballname{
+    position: relative;
+    left: 110px;
+}
+#badmintonlink{
+    text-decoration: none;
+    background-color: bisque;
+}
+#contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+    font-size: 8px; 
+
+}
+#cricketlink{
+    text-decoration: none;
+    background-color: bisque;
+}
+#footballlink{
+    text-decoration: none;
+    background-color: bisque;
+}
+#volleyballlink{
+    text-decoration: none;
+    background-color: bisque;
+    position: relative;
+
+}
+
+#volleyballname{
+    position: relative;
+    left: 100px;
+}

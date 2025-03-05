@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(99, 22, 22);
+}
+.navbar a{
+    background-color: brown;
+    height: 100px;
+    width: 550px;
+    color: wheat;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.navbar{
+    background-color: brown;
+    position: relative;
+    left: 650px;
+    bottom: 30px;
+    cursor: pointer; 
+    height: 70px;
+    width: 550px;
+    border-radius: 20px;
+}
+#badmintonname{
+    color: bisque;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size:40px;
+    display: inline;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    top: 45px;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+
+

@@ -1,0 +1,41 @@
+*{
+    background-color: brown;
+}
+#main{
+    height: 400px;
+    width: 500px;
+    background-color: #F2B28C;
+    position: relative;
+    left: 360px;
+    top:100px;
+    border-radius: 20px;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-color: #F2B28C;
+    width: 400px;
+    color: #09122C;
+}
+#search{
+    background-color: #F6DED8;
+    border: 1px solid black;
+    position: relative;
+    left: 110px;
+    top: 70px;
+    height: 30px;
+    width: 300px;
+    border-radius: 7px;
+}
+.buttons{
+    height: 40px;
+    background-color:#F6DED8;
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+}
